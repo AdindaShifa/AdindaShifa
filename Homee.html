@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Cuvie |  Ecommerce Website Design</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head> 
+<body>
+
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+             <img src="image/Logo1.png" width="125px">
+            </div> 
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="Homee.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+            </nav>
+            <img src="image/menu icon.png" class="menu-icon" onclick="menutoggle()">
+         </div>
+         <div class="row">
+            <div class="col-2">
+                <h1>Hear Every Note,<br>Feel Every Beat.</h1>
+                <p>Elevate your listening experience with our cutting-edge headphones. 
+                Crafted for precision and premium sound <br> quality, every note is crystal clear, 
+                every beat is felt deep within your soul. </p>
+                <a href="products.html" class="button">Explore Now</a>
+            </div>
+            <div class="col-2">
+                <img src="image/headphone couple png.png">
+            </div>
+         </div>
+    </div>
+</div>  
+
+
+
+
+<div class="categories">
+    <div class="small-container">
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-3">
+                <a href="product-details3.html"><img src="image/ya.png"></a>
+                <h4>TempoTune Elite</h4>
+                <p>Rp 375.000,00</p>
+            </div>
+            <div class="col-3">
+                <a href="product-details2.html"><img src="image/yeypng.png"></a>
+                <h4>HarmonySphere Max</h4>
+                <p>Rp 350.000,00</p>
+            </div> 
+            <div class="col-3">
+                <a href="products-details1.html"><img src="image/yipi.png"></a>
+                <h4>MelodyMeld Pro</h4>
+                <p>Rp 400.000,00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <a href="product-details3.html"><img src="image/ya.png"></a>
+                <h4>TempoTune Elite</h4>
+                <p>Rp 375.000,00</p>
+            </div>
+            <div class="col-3">
+                <a href="product-details2.html"><img src="image/yeypng.png"></a>
+                <h4>HarmonySphere Max</h4>
+                <p>Rp 350.000,00</p>
+            </div> 
+            <div class="col-3">
+                <a href="products-details1.html"><img src="image/yipi.png"></a>
+                <h4>MelodyMeld Pro</h4>
+                <p>Rp 400.000,00</p>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                <img src="image/headphone couple png.png" class="offer-img">
+            </div>
+                <div class="col-2">
+                    <p>Exclusively Available on Cuvie</p>
+                    <h1>SonicSurge Pro</h1>
+                    <p>Introducing SonicSurge Pro headphones: Experience unparalleled clarity and depth to every note.</p>
+                    <a href="product-details4.html" class="button">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-2">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2024, Cuvie</p>
+    </div>
+</div>
+</div>
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight == "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight == "0px";
+        }
+    }
+</script>
+</body>
+</html>
