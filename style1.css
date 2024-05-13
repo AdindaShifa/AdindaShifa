@@ -315,7 +315,7 @@ input:focus {
 nav {
     display: flex;
     justify-content: center;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .logo img {
